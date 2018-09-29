@@ -30,7 +30,7 @@ class WineInfoTable
                         '<td>生産地</td>' +
                         '<td>' +
                             '<a href="{0}" target="country_window">{1}</a>&nbsp;&gt;&nbsp;{2}'.format(
-                            UrlUtility.generateCountryPageUrl(this.m_objWine.country),
+                            AnywayUrlUtility.generateCountryPageUrl(this.m_objWine.country),
                             CountryInfo.getJpnName(this.m_objWine.country),
                             this.m_objWine.region_jpn) +
                         '</td>' +

@@ -1,4 +1,4 @@
-import UrlUtility from '../singletons/UrlUtility';
+import AnywayUrlUtility from '../singletons/AnywayUrlUtility';
 
 //-------------------------------------------------------
 //
@@ -37,7 +37,7 @@ class ProducerLinkUpdater
 
                     if (rgobjProducer.length == 1)
                     {
-                        $this.attr('href', UrlUtility.generateProducerPageUrl(rgobjProducer[0]));
+                        $this.attr('href', AnywayUrlUtility.generateProducerPageUrl(rgobjProducer[0]));
                     }
                 },
 

@@ -4,7 +4,7 @@ import UrlQuery from '../../modules/build/UrlQuery';
 import CountryInfo from '../../modules/build/CountryInfo';
 import WineInfo from '../../modules/build/WineInfo';
 
-import UrlUtility from '../singletons/UrlUtility';
+import AnywayUrlUtility from '../singletons/AnywayUrlUtility';
 import HtmlUtility from '../singletons/HtmlUtility';
 import CartUtility from '../singletons/CartUtility';
 import DateTimeUtility from '../singletons/DateTimeUtility';

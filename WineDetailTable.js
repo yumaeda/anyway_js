@@ -98,7 +98,7 @@ class WineDetailTable extends HtmlControl
         if (this.m_objWine.country)
         {
             html = '<a href="{0}" target="country_window">{1}</a>&nbsp;&gt;&nbsp;{2}</td>'.format(
-                    UrlUtility.generateCountryPageUrl(this.m_objWine.country),
+                    AnywayUrlUtility.generateCountryPageUrl(this.m_objWine.country),
                     CountryInfo.getJpnName(this.m_objWine.country),
                     this.m_objWine.region_jpn);
         }
